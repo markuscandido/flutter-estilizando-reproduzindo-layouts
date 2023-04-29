@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mvc_bank/components/box_card.dart';
 import 'package:mvc_bank/components/sections/header.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
           Header(),
+          BoxCard(boxContent: Text('Hello World')),
         ],
       ),
     );
