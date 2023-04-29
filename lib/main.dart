@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_bank/screens/home.dart';
+import 'package:mvc_bank/themes/my_theme_factory.dart';
 
 void main() {
   runApp(const MvcBank());
@@ -10,9 +11,10 @@ class MvcBank extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       title: 'Alubank',
-      home: HomeScreen(),
+      theme: MyThemeFactory.myDarkTheme(),
+      home: const HomeScreen(),
     );
   }
 }
