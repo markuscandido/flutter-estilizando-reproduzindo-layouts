@@ -13,4 +13,9 @@ class MyThemeColors {
   };
 
   static const division = Color.fromRGBO(166, 166, 166, 1.0);
+
+  static const accountPoints = {
+    'delivery': Color.fromRGBO(250, 0, 112, 1.0),
+    'streaming': Color.fromRGBO(75, 89, 191, 1.0),
+  };
 }

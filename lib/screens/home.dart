@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mvc_bank/components/sections/account_actions.dart';
+import 'package:mvc_bank/components/sections/account_points.dart';
 import 'package:mvc_bank/components/sections/header.dart';
 import 'package:mvc_bank/components/sections/recent_activity.dart';
 
@@ -12,6 +14,8 @@ class HomeScreen extends StatelessWidget {
         children: [
           Header(),
           RecentActivity(),
+          AccountActions(),
+          AccountPoints(),
         ],
       ),
     );
